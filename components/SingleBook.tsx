@@ -32,7 +32,6 @@ function SingleBook({ book, dispatch }: SingleBookProps) {
             onClick={() => dispatch({ type: "like", payload: { id: book.id } })}
           >
             <ThumbsUpIcon />
-            Like
           </Button>
           <Button
             variant="outline"
@@ -41,7 +40,6 @@ function SingleBook({ book, dispatch }: SingleBookProps) {
             }
           >
             <ThumbsDownIcon />
-            Dislike
           </Button>
           <Button
             variant="destructive"
@@ -50,7 +48,6 @@ function SingleBook({ book, dispatch }: SingleBookProps) {
             }
           >
             <BadgeMinus />
-            Delete
           </Button>
         </CardFooter>
       </Card>

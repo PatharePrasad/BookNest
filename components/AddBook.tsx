@@ -59,7 +59,7 @@ function AddBook({ dispatch }: AddBookProps) {
     </Button>
     <Button
       type="submit"
-      className="flex items-center gap-2 px-6 py-5 text-lg bg-blue-500 text-white rounded-md hover:bg-blue-600"
+      className="flex items-center gap-2 px-6 py-5 text-lg bg-orange-500 text-white rounded-md hover:bg-orange-600"
     >
       <CrossIcon className="w-6 h-6" /> Add
     </Button>

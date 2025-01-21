@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   title: "BookNest Organize Your Reading",
   description: "Know which book to read by prioritizing them",
   authors: {
-    name: "Animiiexe",
-    url: "htthttps://animiiexe.netlify.app",
+    name: "Pathare Prasad",
+    url: "https://book-nest-bo79.vercel.app/",
   },
 };
 
